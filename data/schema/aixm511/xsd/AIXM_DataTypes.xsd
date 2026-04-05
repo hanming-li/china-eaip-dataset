@@ -78,7 +78,7 @@ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
 	</simpleType>
 	<simpleType name="AlphanumericType">
 		<restriction base="string">
-			<pattern value="([A-Z]|\d)*"/>
+			<pattern value="([A-Z]|\d|\*)*" />
 		</restriction>
 	</simpleType>
 	<simpleType name="Character1Type">
@@ -669,7 +669,7 @@ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
 	</complexType>
 	<simpleType name="CodeAirspaceDesignatorBaseType">
 		<restriction base="aixm:Character3Type">
-			<maxLength value="10"/>
+			<maxLength value="13" />
 			<minLength value="1"/>
 		</restriction>
 	</simpleType>
