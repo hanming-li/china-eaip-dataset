@@ -669,7 +669,7 @@ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
 	</complexType>
 	<simpleType name="CodeAirspaceDesignatorBaseType">
 		<restriction base="aixm:Character3Type">
-			<maxLength value="10"/>
+			<maxLength value="12" />
 			<minLength value="1"/>
 		</restriction>
 	</simpleType>
