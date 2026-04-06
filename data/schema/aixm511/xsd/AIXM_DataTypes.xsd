@@ -78,7 +78,7 @@ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
 	</simpleType>
 	<simpleType name="AlphanumericType">
 		<restriction base="string">
-			<pattern value="([A-Z]|\d)*"/>
+			<pattern value="([A-Z]|\d|\*)*" />
 		</restriction>
 	</simpleType>
 	<simpleType name="Character1Type">
