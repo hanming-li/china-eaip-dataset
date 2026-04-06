@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<aisc-cl:datasetsChecklist xmlns:aisc-cs="https://www.eaipchina.cn/schema/dataset/checksum"
+    xmlns:aisc-cl="https://www.eaipchina.cn/schema/dataset/checklist"
+    xmlns:aisc-ds="https://www.eaipchina.cn/schema/dataset/meta"
+    xmlns:aisc-pn="https://www.eaipchina.cn/schema/dataset/publishNotification">
+    <aisc-cl:dataset>
+        <aisc-ds:datasetMeta>
+            <aisc-ds:uid>e69885bf-2098-32cc-a60b-a4b18fd87282</aisc-ds:uid>
+            <aisc-ds:product>AIP-DS</aisc-ds:product>
+            <aisc-ds:issueTime>2026-03-18T02:35:23Z</aisc-ds:issueTime>
+            <aisc-ds:dataVariant>BASELINE</aisc-ds:dataVariant>
+            <aisc-ds:pubNo>202602</aisc-ds:pubNo>
+            <aisc-ds:effectiveTime>2026-02-18T16:00:00Z</aisc-ds:effectiveTime>
+            <aisc-ds:version>V2</aisc-ds:version>
+        </aisc-ds:datasetMeta>
+        <aisc-ds:filename>CN_AIP-DS_EFF202602181600_AIRAC2602_V2.zip</aisc-ds:filename>
+        <aisc-ds:sha256sum>936bc67d4593ea699b0c9a5035bf9c04dfbdf67df89cf19ba5099ba8ebfc2548</aisc-ds:sha256sum>
+    </aisc-cl:dataset>
+</aisc-cl:datasetsChecklist>
